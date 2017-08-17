@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/c20b95841b2cb329e935075634a8fb12661f4b38/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_46e4f9ec9f374d50280567f931e69d3a9aaf7abf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/793b5f854d3a9aebdab1562fc4d39ac632d32f49/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_2edce016d87894ec049a0852575b8a018a8428b1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/ad024b52d39ac14059089acd81a59a04b15b8e80/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_171ebcbadbc1cb295394919209021187b0f97ce0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/1bde0d384fe578347aa4d753b55d3212bf4de250/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_111bc48fe70739c3dae7a11be8eab6aef0f6c64f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/793b5f854d3a9aebdab1562fc4d39ac632d32f49/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2edce016d87894ec049a0852575b8a018a8428b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/ad024b52d39ac14059089acd81a59a04b15b8e80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_171ebcbadbc1cb295394919209021187b0f97ce0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/b336aa5badd1cf3bf548a87576393fbae7faaef1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_b9b4286ad428b6813bb2a971ffc532d69bcd381d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/b336aa5badd1cf3bf548a87576393fbae7faaef1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b9b4286ad428b6813bb2a971ffc532d69bcd381d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f022d92ff2a49232f1a00ada5e0b7457cdb3dd99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/c014033131b20d78f0a0e6bb501771055cc29f05/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0631da2260bef878d8856261861a138569122b5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9d2c5f3cc16cbae448b49b54c916b93304b9712">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1583b9d89337f38a4cd19f278b99651053997a96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_07031b2ac25cf8034b89c7719472755eba6536af/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/03c82b087a469f07a219482b76c17a560a10d930/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_c73f15016d7cb350e14121faf39d4743ab2d2fba.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/fb32e9a5c9d55226b9def43b6fe2943997f3494c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b33710e5bb3c07ad8e9b65dcfaafacd87e475480/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/03c82b087a469f07a219482b76c17a560a10d930/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c73f15016d7cb350e14121faf39d4743ab2d2fba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/555cc027fd4adacf104a5f78b08bcda342d15b51/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f89b21ee3356ac447d271504e6f5a4105cc8670a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/fb32e9a5c9d55226b9def43b6fe2943997f3494c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_b33710e5bb3c07ad8e9b65dcfaafacd87e475480.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/c014033131b20d78f0a0e6bb501771055cc29f05/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_0631da2260bef878d8856261861a138569122b5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/555cc027fd4adacf104a5f78b08bcda342d15b51/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_f89b21ee3356ac447d271504e6f5a4105cc8670a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_07031b2ac25cf8034b89c7719472755eba6536af.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_d02d0dafd3d93d16695a3d55afa2f32beb470226/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/0b7436e3e09481a9276e889770de0dbcfcd73f78/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_a35836a5ab4045f58576795a122549b22019fc52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d02d0dafd3d93d16695a3d55afa2f32beb470226.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/0b7436e3e09481a9276e889770de0dbcfcd73f78/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a35836a5ab4045f58576795a122549b22019fc52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/08485669332c083d81ee0cba2aa291003fcfcce3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6c9ceab25739f9d2e5bf8655ad0665c739e14bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/28767a59837b07a2fe3bd088f863d8bdba31230d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_592600b00482645c85a86c042b86033f88e52489.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/08485669332c083d81ee0cba2aa291003fcfcce3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_d6c9ceab25739f9d2e5bf8655ad0665c739e14bc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/a5e7ccaa46e4f8ecc58e5477b56ce6f4a28f2c63/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d09671904c757362baa7c410d665f41a24c9549/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/28767a59837b07a2fe3bd088f863d8bdba31230d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_592600b00482645c85a86c042b86033f88e52489/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/a5e7ccaa46e4f8ecc58e5477b56ce6f4a28f2c63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_6d09671904c757362baa7c410d665f41a24c9549.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/campuscode02/.android/build-cache/1bde0d384fe578347aa4d753b55d3212bf4de250/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/classes_111bc48fe70739c3dae7a11be8eab6aef0f6c64f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/campuscode02/.android/build-cache/c20b95841b2cb329e935075634a8fb12661f4b38/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46e4f9ec9f374d50280567f931e69d3a9aaf7abf/classes.dex" />
+    </item>
+
+</items>
