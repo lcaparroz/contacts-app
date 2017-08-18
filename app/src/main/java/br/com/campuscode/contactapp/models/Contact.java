@@ -1,5 +1,7 @@
 package br.com.campuscode.contactapp.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 
 /**
@@ -7,8 +9,13 @@ import java.io.Serializable;
  */
 
 public class Contact implements Serializable{
+    @SerializedName("id")
     private Long id;
+
+    @SerializedName("name")
     private String name;
+
+    @SerializedName("phone")
     private String phone;
 
     public String getName() {

@@ -5,19 +5,24 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import br.com.campuscode.contactapp.models.Contact;
 import br.com.campuscode.contactapp.provider.ContactModel;
+import br.com.campuscode.contactapp.tasks.SendContactTask;
 
 public class AddContactActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnAddContact;
     EditText etContactName;
     EditText etContactPhone;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,19 +39,32 @@ public class AddContactActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View view) {
 
-        Intent result = new Intent();
-        Bundle contactBundle = new Bundle();
+        Animation animation = AnimationUtils.loadAnimation(this, android.R.anim.fade_in);
         Contact contact = new Contact();
+        SendContactTask sendContact;
 
-        contact.setName(etContactName.getText().toString());
-        contact.setPhone(etContactPhone.getText().toString());
-        insertContact(contact);
+        String name = etContactName.getText().toString();
+        String phone = etContactPhone.getText().toString();
 
-        contactBundle.putSerializable("contact", contact);
-        result.putExtra("contact", contactBundle);
-        setResult(0, result);
+        if (name.isEmpty()) {
+            etContactName.startAnimation(animation);
+            etContactName.setError("Nome esta vazio");
+        }
 
-        finish();
+        if (phone.isEmpty()) {
+            etContactPhone.startAnimation(animation);
+            etContactPhone.setError("Telefone esta vazio");
+        }
+
+        if (!(name.isEmpty() || phone.isEmpty())) {
+            contact.setName(etContactName.getText().toString());
+            contact.setPhone(etContactPhone.getText().toString());
+            insertContact(contact);
+            sendContact = new SendContactTask(contact.getName(), contact.getPhone(), this);
+            sendContact.execute();
+            finish();
+        }
+
     }
 
     private void insertContact(Contact contact) {

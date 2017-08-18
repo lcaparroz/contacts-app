@@ -70,4 +70,42 @@ public class WebApi {
         return contentAsString;
     }
 
+    public String getContacts() throws IOException {
+        OutputStreamWriter writer = null;
+        String contentAsString = "";
+        try {
+            URL url = new URL(CONTACTS_URL);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setReadTimeout(10000 /* miliseconds */);
+            conn.setConnectTimeout(15000 /* miliseconds */);
+            conn.setRequestProperty("Content-length", "0");
+            conn.setRequestMethod("GET");
+            conn.setAllowUserInteraction(false);
+            conn.setUseCaches(false);
+            conn.connect();
+
+            StringBuilder builder = new StringBuilder();
+            int httpResult = conn.getResponseCode();
+            if (httpResult == HttpURLConnection.HTTP_CREATED || httpResult == HttpURLConnection.HTTP_OK) {
+                BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));
+                String line = null;
+                while ((line = reader.readLine()) != null) {
+                    builder.append(line + "\n");
+                }
+                reader.close();
+                contentAsString = builder.toString();
+            }
+            else {
+                contentAsString = conn.getResponseMessage();
+            }
+        }
+        finally {
+            if (writer != null) {
+                writer.close();
+            }
+        }
+
+        return contentAsString;
+    }
+
 }

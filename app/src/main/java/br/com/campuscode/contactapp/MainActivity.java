@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +15,9 @@ import java.util.List;
 import br.com.campuscode.contactapp.adapters.ContactsAdapter;
 import br.com.campuscode.contactapp.models.Contact;
 import br.com.campuscode.contactapp.provider.ContactModel;
+import br.com.campuscode.contactapp.tasks.GetContactsTask;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, GetContactsTask.OnContactsSynced {
 
     ListView lvContactList;
     List<Contact> contactList;
@@ -48,6 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onResume() {
         super.onResume();
+        GetContactsTask getContacts = new GetContactsTask(this);
+        getContacts.execute();
+
         refreshList();
     }
 
@@ -69,5 +74,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         adapter.notifyDataSetChanged();
+    }
+
+
+    @Override
+    public void FinishSync(List<Contact> contactList) {
+        Toast.makeText(this, String.valueOf(contactList.size()) + " contatos sincronizados com a web", Toast.LENGTH_SHORT).show();
     }
 }

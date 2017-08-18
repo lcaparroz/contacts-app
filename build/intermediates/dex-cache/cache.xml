@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="f9d2c5f3cc16cbae448b49b54c916b93304b9712">
+        sha1="5904b8e8dd65bdcdc15c01f304bcae1222926c28">
         <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1583b9d89337f38a4cd19f278b99651053997a96/classes.dex" />
     </item>
     <item
@@ -180,6 +180,15 @@
         revision="26.0.1"
         sha1="023ee503b631f69511e335a061ea008f8da60f40">
         <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_07031b2ac25cf8034b89c7719472755eba6536af.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/campuscode02/AndroidStudioProjects/ContactApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19/classes.dex" />
     </item>
     <item
         is-multidex="true"
